@@ -35,10 +35,13 @@ namespace cSharpTutoria
 
         public void allBooks()
         {
-            foreach(var book in MyBook)
-            {
-                Console.WriteLine(book.Bookname());
-            }
+            if(MyBook.Count> 0 )
+                foreach(var book in MyBook)
+                {
+                    Console.WriteLine(book.Bookname());
+                }
+            else
+                Console.WriteLine("No books available");
         }
 
         public string getUserDetails()

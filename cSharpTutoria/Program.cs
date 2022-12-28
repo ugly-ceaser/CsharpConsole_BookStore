@@ -163,16 +163,24 @@ namespace cSharpTutoria
                                 }
                                 else
                                 {
-                                    Console.WriteLine("1:View books\n2:View Details\n0000 to go back");
-
-                                    Console.Write("Reply :");
-                                    string choice = Console.ReadLine();
-
-                                    if(choice == "1")
+                                    while (true)
                                     {
-                                        Console.WriteLine($"welcome {currentUser.getUserDetails()}\n Your Books are ");
-                                        currentUser.allBooks();
+                                        Console.WriteLine("1:View books\n2:View Details\n0000 to go back");
+
+                                        Console.Write("Reply :");
+                                        string choice = Console.ReadLine();
+
+                                        if (choice == "1")
+                                        {
+                                            Console.WriteLine($"welcome {currentUser.getUserDetails()}\n Your Books are ");
+                                            currentUser.allBooks();
+                                        }else if(choice == "0000")
+                                        {
+                                            break;
+                                        }
+
                                     }
+                                    
 
 
 
