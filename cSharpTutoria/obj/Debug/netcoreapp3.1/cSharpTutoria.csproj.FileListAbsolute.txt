@@ -1,0 +1,14 @@
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria.deps.json
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria.runtimeconfig.json
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria.runtimeconfig.dev.json
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria.dll
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria.pdb
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.csproj.AssemblyReference.cache
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.AssemblyInfoInputs.cache
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.AssemblyInfo.cs
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.dll
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.pdb
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/obj/Debug/netcoreapp3.1/cSharpTutoria.genruntimeconfig.cache
+/Users/mac/Projects/cSharpTutoria/cSharpTutoria/bin/Debug/netcoreapp3.1/cSharpTutoria
