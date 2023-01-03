@@ -49,11 +49,19 @@ namespace cSharpTutoria
             return $"{this.firstName} {this.secondName}";
         }
 
-        public bool GetBook(Book a)
+        public bool GetBook(string name)
         {
-            MyBook.Add(a);
+            if (Book.showCollection(name))
+            {
+                this.MyBook.Add(Book.borowBook(name));
 
-            return true;
+                return true;
+
+            }
+
+            
+
+            return false;
 
         }
 

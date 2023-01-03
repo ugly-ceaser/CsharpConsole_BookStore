@@ -1,11 +1,17 @@
 ﻿<Properties StartupConfiguration="{3F7C86E9-7147-42CA-8811-D30CAF9B91FB}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.cSharpTutoria PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="cSharpTutoria/Program.cs">
     <Files>
-      <File FileName="cSharpTutoria/Program.cs" Line="146" Column="45" />
-      <File FileName="cSharpTutoria/Users.cs" Line="44" Column="39" />
+      <File FileName="cSharpTutoria/Program.cs" Line="190" Column="89" />
+      <File FileName="cSharpTutoria/Users.cs" Line="52" Column="41" />
       <File FileName="cSharpTutoria/Admin.cs" Line="41" Column="42" />
-      <File FileName="cSharpTutoria/Book.cs" Line="11" Column="46" />
+      <File FileName="cSharpTutoria/Book.cs" Line="128" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +21,6 @@
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,10 +30,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.cSharpTutoria PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

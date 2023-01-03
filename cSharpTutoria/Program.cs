@@ -165,7 +165,7 @@ namespace cSharpTutoria
                                 {
                                     while (true)
                                     {
-                                        Console.WriteLine("1:View books\n2:View Details\n0000 to go back");
+                                        Console.WriteLine("1:View books\n2:Borrow Book\n3:To Return A Book\n0000 to go back");
 
                                         Console.Write("Reply :");
                                         string choice = Console.ReadLine();
@@ -174,7 +174,26 @@ namespace cSharpTutoria
                                         {
                                             Console.WriteLine($"welcome {currentUser.getUserDetails()}\n Your Books are ");
                                             currentUser.allBooks();
-                                        }else if(choice == "0000")
+                                        }else if(choice == "2")
+                                        {
+                                            Console.Write("What is the name of the Book: ");
+                                            String BookName = Console.ReadLine();
+
+                                           var info = currentUser.GetBook(BookName);
+
+                                            if (info)
+                                            {
+                                                Console.WriteLine($"{BookName} successfully Added");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine($"{BookName} not found");
+                                            }
+
+                                        }
+
+
+                                        else if(choice == "0000")
                                         {
                                             break;
                                         }

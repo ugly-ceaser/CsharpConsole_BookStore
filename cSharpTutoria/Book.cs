@@ -125,6 +125,35 @@ namespace cSharpTutoria
         }
 
 
+        public static bool showCollection(string name)
+        {
+            bool status = false;
+           
+                foreach (var book in Collection)
+                {
+                    if(book.Name == name)
+                    {
+                    status = true;
+
+
+                }
+                else
+                {
+                    status = false;
+
+                }
+
+
+                }
+
+            return status;
+            
+
+            
+
+        }
+
+
         public bool showBorrowedCollection(bool Admin)
         {
 
@@ -171,9 +200,9 @@ namespace cSharpTutoria
         }
 
 
-        public static bool borowedBook(string name , Users a)
+        public static Book borowBook(string name)
         {
-            bool message = false; ;
+            Book book = new Book("sample","sample",DateTime.Today);
 
             foreach(var x in Collection)
             {
@@ -181,27 +210,21 @@ namespace cSharpTutoria
                 {
                     BorrowedBooks.Add(x);
 
-                   message =  a.GetBook(x);
+                  
 
                     Collection.Remove(x);
 
-
-
-                    
-
-                    break;
+                    book = x;
 
                 }
-                else
-                {
-                    Console.WriteLine($"{name} not found");
 
-                    message = false;
 
-                }
+
+
 
             }
-            return message;
+            return book;
+
         }
 
 
